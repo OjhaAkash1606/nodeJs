@@ -1,3 +1,5 @@
+// https://myaccount.google.com/lesssecureapps
+
 const nodeMailer = require("nodemailer");
 
 const transport = nodeMailer.createTransport({
@@ -10,7 +12,6 @@ const transport = nodeMailer.createTransport({
         pass: "PRAKASH@1619"
     }
 });
-
 
 const mailOptions = {
     from: "khemchand1619@gmail.com",
@@ -26,3 +27,4 @@ transport.sendMail(mailOptions, (error, info) => {
         console.log("Email has been sent", info.response);
     }
 });
+

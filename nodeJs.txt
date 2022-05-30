@@ -1,0 +1,12 @@
+chalk
+validator
+toaster
+
+
+JSON :- JSON stands for Javascript object notation.
+        JSON is lightWeight formate for storing and transporting data.
+        JSON is used often when data is sent from a server to a web page.
+
+
+Api :- API is the acronym for application programming interface, which is a software intermediary that allows two application
+       to talk to each other.
